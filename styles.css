@@ -713,9 +713,7 @@ textarea {
 .section-heading p:not(.eyebrow),
 .statement p,
 .timeline p,
-.service-card p,
 .offer-copy p,
-.product-card p,
 .contact-notes,
 .contact-form,
 .testimonials blockquote {
@@ -723,9 +721,13 @@ textarea {
   line-height: 1.75;
 }
 
-.light .section-heading p:not(.eyebrow),
-.light .service-card p,
-.light .product-card p {
+.service-card p,
+.product-card p {
+  color: rgb(8 8 8 / 0.78);
+  line-height: 1.75;
+}
+
+.light .section-heading p:not(.eyebrow) {
   color: rgb(8 8 8 / 0.7);
 }
 
