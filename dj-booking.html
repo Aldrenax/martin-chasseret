@@ -4,65 +4,82 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#050505" />
-    <title>DJ, producteur & Booking | Marty Blind DJ</title>
+    <meta name="author" content="Marty Blind DJ" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <title>Booker Marty Blind DJ | DJ producteur non-voyant — France</title>
     <meta
       name="description"
-      content="Booker Marty Blind DJ, DJ producteur, pour une soirée, un événement privé, une entreprise, un club ou une scène."
+      content="Booker Marty Blind DJ, DJ producteur et 1er DJ non-voyant professionnel de France, pour une soirée, un mariage, un événement d'entreprise, un club ou une scène."
     />
     <link rel="canonical" href="https://martinchasseret.com/dj-booking.html" />
-    <meta property="og:title" content="DJ, producteur & Booking | Marty Blind DJ" />
+    <meta property="og:title" content="Booker Marty Blind DJ | DJ producteur non-voyant" />
     <meta
       property="og:description"
-      content="Booker Marty Blind DJ pour une soirée, un événement privé, une entreprise, un club ou une scène."
+      content="Booker Marty Blind DJ pour une soirée, un mariage, un événement d'entreprise, un club ou une scène."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://martinchasseret.com/dj-booking.html" />
     <meta property="og:image" content="https://martinchasseret.com/images/dj-scene-2.jpeg" />
+    <meta property="og:image:alt" content="Marty Blind DJ en prestation sur scène" />
     <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Marty Blind DJ" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="DJ, producteur & Booking | Marty Blind DJ" />
-    <meta name="twitter:description" content="Prestation DJ, production musicale et booking événementiel." />
+    <meta name="twitter:title" content="Booker Marty Blind DJ | DJ producteur non-voyant" />
+    <meta name="twitter:description" content="Prestation DJ, production musicale et booking événementiel par Marty Blind DJ." />
     <meta name="twitter:image" content="https://martinchasseret.com/images/dj-scene-2.jpeg" />
     <link rel="stylesheet" href="./styles.css" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Booking DJ - Marty Blind DJ",
+        "name": "Booking DJ — Marty Blind DJ",
         "serviceType": "Prestation DJ et production musicale",
         "url": "https://martinchasseret.com/dj-booking.html",
         "provider": {
           "@type": "Person",
-          "name": "Martin Chasseret",
-          "alternateName": "Marty Blind DJ",
-          "sameAs": "https://open.spotify.com/intl-fr/artist/3TvVZr1DVb13dqhjvNCrAB?si=5Bp-GAcpQfy2K5Rt_ShdXQ"
+          "name": "Marty Blind DJ",
+          "alternateName": ["Marty", "Martin Chasseret"],
+          "sameAs": "https://open.spotify.com/intl-fr/artist/3TvVZr1DVb13dqhjvNCrAB"
         },
-        "areaServed": "France"
+        "areaServed": {"@type": "Country", "name": "France"},
+        "audience": {"@type": "Audience", "audienceType": "Organisateurs d'événements, mariages, entreprises, clubs"}
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://martinchasseret.com/"},
+          {"@type": "ListItem", "position": 2, "name": "DJ Booking", "item": "https://martinchasseret.com/dj-booking.html"}
+        ]
       }
     </script>
   </head>
   <body>
-    <a class="skip-link" href="#contenu">Aller au contenu</a>
+    <a class="skip-link" href="#contenu">Aller au contenu principal</a>
 
     <header class="site-header">
       <nav class="nav" aria-label="Navigation principale">
-        <a class="brand" href="./index.html#hero">Martin Chasseret</a>
+        <a class="brand" href="./index.html#hero" aria-label="Marty Blind DJ, retour à l'accueil">Marty Blind DJ</a>
         <div class="desktop-nav">
-          <a href="./martin.html">Martin</a>
+          <a href="./martin.html">Marty</a>
           <a href="./dj-booking.html" aria-current="page">DJ</a>
           <a href="./conferences.html">Conférences</a>
           <a href="./formations.html">Formations</a>
           <a href="./blind-touch.html">Blind Touch</a>
+          <a href="./blog.html">Blog</a>
           <a href="./medias.html">Médias</a>
         </div>
         <a class="button button-primary header-cta" href="#booking-form">Demander un devis DJ</a>
         <details class="mobile-menu">
-          <summary aria-label="Ouvrir le menu">Menu</summary>
+          <summary aria-label="Ouvrir le menu de navigation">Menu</summary>
           <div class="mobile-panel">
             <a href="./index.html#hero">Accueil</a>
-            <a href="./martin.html">Martin</a>
+            <a href="./martin.html">Marty</a>
             <a href="./conferences.html">Conférences</a>
             <a href="./formations.html">Formations</a>
+            <a href="./blog.html">Blog</a>
             <a href="./contact.html">Contact</a>
             <a class="button button-primary" href="#booking-form">Demander un devis DJ</a>
           </div>
@@ -71,25 +88,26 @@
     </header>
 
     <main id="contenu">
-      <section class="detail-hero dark">
+      <section class="detail-hero dark" aria-labelledby="dj-hero-title">
         <div class="shell detail-hero-grid">
           <div class="section-heading reveal">
             <p class="eyebrow">DJ, producteur & booking</p>
-            <h1>Booker Marty Blind DJ à vos soirées et événements</h1>
+            <h1 id="dj-hero-title">Booker Marty Blind DJ à vos soirées et événements</h1>
             <p>
-              Marty Blind est DJ et producteur. Il apporte une prestation musicale énergique,
-              professionnelle et hors du commun. L'objectif reste simple : faire danser votre public,
-              créer une vraie ambiance et laisser un souvenir fort.
+              Marty Blind DJ est DJ et producteur, 1er DJ non-voyant professionnel de France. Il
+              apporte une prestation musicale énergique, professionnelle et hors du commun.
+              L'objectif reste simple : faire danser votre public, créer une vraie ambiance et
+              laisser un souvenir fort.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#booking-form">Demander un devis DJ</a>
-              <a class="button button-secondary" href="https://open.spotify.com/intl-fr/artist/3TvVZr1DVb13dqhjvNCrAB?si=5Bp-GAcpQfy2K5Rt_ShdXQ">Profil artiste Spotify</a>
+              <a class="button button-secondary" href="https://open.spotify.com/intl-fr/artist/3TvVZr1DVb13dqhjvNCrAB?si=5Bp-GAcpQfy2K5Rt_ShdXQ" rel="noopener" target="_blank">Profil artiste Spotify</a>
             </div>
           </div>
           <div class="detail-media reveal">
             <img
               src="./images/dj-scene-2.jpeg"
-              alt="Marty Blind DJ pendant une prestation événementielle"
+              alt="Marty Blind DJ pendant une prestation événementielle sur scène"
               width="1280"
               height="960"
               loading="eager"
@@ -105,20 +123,20 @@
             <p class="eyebrow">Formats</p>
             <h2 id="formats-title">Une prestation adaptée au lieu, au public et à l'univers musical recherché</h2>
           </div>
-          <div class="cards three-columns">
-            <article class="service-card">
+          <div class="cards three-columns" role="list">
+            <article class="service-card" role="listitem">
               <span class="service-icon" aria-hidden="true">01</span>
               <h3>Événements privés</h3>
               <p>Mariages, anniversaires, soirées privées : une ambiance construite avec vous en amont.</p>
               <strong>Public, horaires, style musical</strong>
             </article>
-            <article class="service-card">
+            <article class="service-card" role="listitem">
               <span class="service-icon" aria-hidden="true">02</span>
               <h3>Entreprises</h3>
               <p>Soirées internes, conventions, afterworks, événements RSE ou inclusion avec une présence forte.</p>
               <strong>Cadre pro, message, énergie</strong>
             </article>
-            <article class="service-card">
+            <article class="service-card" role="listitem">
               <span class="service-icon" aria-hidden="true">03</span>
               <h3>Clubs & scènes</h3>
               <p>Un set club plus frontal, pensé pour tenir la piste et faire monter l'intensité.</p>
@@ -171,18 +189,18 @@
             <p class="eyebrow">Crédibilité</p>
             <h2 id="dj-proof-title">Une histoire forte, mais d'abord un vrai métier</h2>
             <p>
-              Le parcours de Martin ajoute une dimension unique à la prestation, mais le cœur du
+              Le parcours de Marty ajoute une dimension unique à la prestation, mais le cœur du
               booking reste professionnel : préparation, adaptation au public, matériel, timing et
               qualité musicale.
             </p>
           </div>
-          <div class="proof-grid compact">
-            <article class="proof-card">
-              <img src="./images/dj-cover.jpg" alt="Visuel 1er DJ non-voyant professionnel de France" width="857" height="857" loading="lazy" />
+          <div class="proof-grid compact" role="list">
+            <article class="proof-card" role="listitem">
+              <img src="./images/dj-cover.jpg" alt="Marty Blind DJ, 1er DJ non-voyant professionnel de France" width="857" height="857" loading="lazy" />
               <h3>1er DJ non-voyant professionnel de France</h3>
             </article>
-            <article class="proof-card">
-              <img src="./images/ams.jpg" alt="Visuel Animation Musicale et Scénique" width="960" height="958" loading="lazy" />
+            <article class="proof-card" role="listitem">
+              <img src="./images/ams.jpg" alt="Diplôme Animation Musicale et Scénique de Marty Blind DJ" width="960" height="958" loading="lazy" />
               <h3>Formation DJ, production et animation musicale</h3>
             </article>
           </div>
@@ -195,10 +213,10 @@
             <p class="eyebrow">Musique</p>
             <h2 id="music-title">Écouter Marty Blind DJ avant de booker</h2>
             <p>
-              Marty Blind a aussi un profil artiste Spotify. Les extraits permettent de découvrir
-              son univers de producteur avant de préparer une prestation DJ adaptée à votre public.
-              C'est une facette importante de son profil : il ne se contente pas de mixer, il
-              construit aussi son propre univers sonore.
+              Marty Blind DJ a aussi un profil artiste Spotify. Les extraits permettent de
+              découvrir son univers de producteur avant de préparer une prestation DJ adaptée à
+              votre public. C'est une facette importante de son profil : il ne se contente pas de
+              mixer, il construit aussi son propre univers sonore.
             </p>
           </div>
           <div class="video-grid">
@@ -220,7 +238,7 @@
             </article>
           </div>
           <div class="hero-actions">
-            <a class="button button-primary" href="https://open.spotify.com/intl-fr/artist/3TvVZr1DVb13dqhjvNCrAB?si=5Bp-GAcpQfy2K5Rt_ShdXQ">Ouvrir le profil artiste Spotify</a>
+            <a class="button button-primary" href="https://open.spotify.com/intl-fr/artist/3TvVZr1DVb13dqhjvNCrAB?si=5Bp-GAcpQfy2K5Rt_ShdXQ" rel="noopener" target="_blank">Ouvrir le profil artiste Spotify</a>
             <a class="button button-secondary" href="#booking-form">Demander un devis DJ</a>
           </div>
         </div>
@@ -269,24 +287,27 @@
             method="post"
             enctype="text/plain"
             data-form-title="Demande DJ - Marty Blind DJ"
+            aria-labelledby="booking-title"
+            aria-describedby="dj-form-helper"
+            novalidate
           >
-            <p class="form-helper">
+            <p class="form-helper" id="dj-form-helper">
               Le bouton prépare un email à envoyer à l'adresse officielle de contact. Vous pourrez
               relire votre demande de devis avant l'envoi.
             </p>
             <div class="form-grid">
-              <label for="name">Nom complet<input id="name" name="name" autocomplete="name" required /></label>
-              <label for="email">Email<input id="email" name="email" type="email" autocomplete="email" required /></label>
+              <label for="name">Nom complet<input id="name" name="name" autocomplete="name" required aria-required="true" /></label>
+              <label for="email">Email<input id="email" name="email" type="email" autocomplete="email" required aria-required="true" inputmode="email" /></label>
               <label for="date">Date souhaitée<input id="date" name="date" type="date" /></label>
               <label for="location">Ville / lieu<input id="location" name="location" autocomplete="address-level2" /></label>
               <label for="event-type">Type d'événement<input id="event-type" name="event-type" placeholder="Mariage, club, entreprise..." /></label>
-              <label for="audience">Public attendu<input id="audience" name="audience" placeholder="Nombre de personnes" /></label>
+              <label for="audience">Public attendu<input id="audience" name="audience" placeholder="Nombre de personnes" inputmode="numeric" /></label>
               <label for="duration">Horaires / durée<input id="duration" name="duration" placeholder="Ex. 21h-2h" /></label>
               <label for="budget">Budget indicatif<input id="budget" name="budget" placeholder="Fourchette prévue" /></label>
             </div>
-            <label for="message">Message<textarea id="message" name="message" rows="5" placeholder="Horaires, ambiance souhaitée, matériel sur place, budget indicatif..." required></textarea></label>
+            <label for="message">Message<textarea id="message" name="message" rows="5" placeholder="Horaires, ambiance souhaitée, matériel sur place, budget indicatif..." required aria-required="true"></textarea></label>
             <label class="consent" for="consent-dj">
-              <input id="consent-dj" name="consent" type="checkbox" required />
+              <input id="consent-dj" name="consent" type="checkbox" required aria-required="true" />
               <span>J'accepte que mes informations soient utilisées pour répondre à ma demande.</span>
             </label>
             <p class="form-status" data-form-status role="status" aria-live="polite"></p>
@@ -303,13 +324,19 @@
 
     <footer class="site-footer">
       <div class="shell footer-inner">
-        <p>© Martin Chasseret. Tous droits réservés.</p>
+        <p>© Marty Blind DJ — Martin Chasseret. Tous droits réservés.</p>
         <nav aria-label="Navigation secondaire">
           <a href="./index.html#hero">Accueil</a>
           <a href="./conferences.html">Conférences</a>
+          <a href="./blog.html">Blog</a>
           <a href="./contact.html">Contact</a>
           <a href="#booking-form">Devis DJ</a>
         </nav>
+        <p class="footer-credit">
+          Site conçu et optimisé par
+          <a href="https://askoptimize.com" rel="noopener" target="_blank">AskOptimize</a>
+          — agence d'optimisation web et SEO.
+        </p>
       </div>
     </footer>
     <script src="./form-handler.js" defer></script>

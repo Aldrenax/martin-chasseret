@@ -43,7 +43,7 @@ const buildEmailBody = (form, title) => {
   return [
     "Bonjour,",
     "",
-    `Nouvelle demande depuis le site Martin Chasseret : ${title}.`,
+    `Nouvelle demande depuis le site Marty Blind DJ : ${title}.`,
     "",
     ...lines,
     "",

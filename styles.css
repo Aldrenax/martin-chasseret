@@ -1,4 +1,5 @@
 :root {
+  color-scheme: dark;
   --stage: #050505;
   --graphite: #121214;
   --asphalt: #1b1b1f;
@@ -1364,8 +1365,8 @@ textarea {
 .contact-form label {
   display: grid;
   gap: 0.48rem;
-  color: var(--ivory);
-  font-size: 0.92rem;
+  color: #ffffff;
+  font-size: 0.96rem;
   font-weight: 850;
 }
 
@@ -1374,11 +1375,26 @@ textarea {
 .contact-form textarea {
   width: 100%;
   min-height: 48px;
-  border: 1px solid rgb(255 255 255 / 0.14);
+  border: 1px solid rgb(255 255 255 / 0.18);
   border-radius: 1rem;
   background: var(--stage);
-  color: var(--ivory);
+  color: #ffffff;
+  color-scheme: dark;
+  font-size: 1rem;
   padding: 0.8rem 0.9rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgb(255 255 255 / 0.46);
+}
+
+.contact-form input:focus-visible,
+.contact-form select:focus-visible,
+.contact-form textarea:focus-visible {
+  border-color: rgb(255 42 29 / 0.6);
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
 }
 
 .contact-form textarea {
@@ -1475,6 +1491,31 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+.footer-credit {
+  width: 100%;
+  margin: 0.4rem 0 0;
+  color: rgb(247 242 234 / 0.5);
+  font-size: 0.84rem;
+  font-weight: 650;
+  letter-spacing: 0.02em;
+}
+
+.footer-credit a {
+  color: rgb(247 242 234 / 0.82);
+  font-weight: 850;
+  text-decoration: underline;
+  text-decoration-color: rgb(255 42 29 / 0.42);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.3rem;
+  transition: color 180ms ease, text-decoration-color 180ms ease;
+}
+
+.footer-credit a:hover,
+.footer-credit a:focus-visible {
+  color: var(--rosso-bright);
+  text-decoration-color: var(--rosso-bright);
 }
 
 .sticky-actions {
