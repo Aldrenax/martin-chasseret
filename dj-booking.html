@@ -279,6 +279,71 @@
         </div>
       </section>
 
+      <section class="section graphite" aria-labelledby="testimonials-title">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow">Témoignages</p>
+            <h2 id="testimonials-title">Ce qu'en disent les organisateurs qui ont booké Marty</h2>
+            <p>
+              Vous avez fait jouer Marty Blind DJ ?
+              <a href="mailto:marty.blind.dj@gmail.com?subject=Témoignage%20pour%20le%20site">Envoyez-nous un mot</a>,
+              il sera ajouté ici.
+            </p>
+          </div>
+          <!--
+            Pour activer les témoignages : remplir 3 cards et décommenter le bloc
+            JSON-LD Review en bas de fichier (cherchez TEMPLATE_REVIEWS_JSONLD).
+            Format conseillé par card : nom, organisation/ville, citation courte
+            (1-2 phrases), date.
+          -->
+          <div class="cards three-columns" role="list">
+            <article class="service-card" role="listitem" data-placeholder>
+              <span class="service-icon" aria-hidden="true">★</span>
+              <h3>Témoignage à venir</h3>
+              <p>Vous avez organisé une soirée avec Marty ? Votre retour aidera les futurs organisateurs à se projeter.</p>
+              <strong>Mariage, entreprise, club, festival</strong>
+            </article>
+            <article class="service-card" role="listitem" data-placeholder>
+              <span class="service-icon" aria-hidden="true">★</span>
+              <h3>Partagez votre expérience</h3>
+              <p>Quelques lignes suffisent : ambiance, public, professionnalisme, déroulé. Le ton qui vous correspond.</p>
+              <strong>Court, concret, signé</strong>
+            </article>
+            <article class="service-card" role="listitem" data-placeholder>
+              <span class="service-icon" aria-hidden="true">★</span>
+              <h3>Recommander Marty</h3>
+              <p>Vous pouvez aussi laisser un avis Google ou recommander Marty sur LinkedIn — toutes les voix comptent.</p>
+              <strong>Google, LinkedIn, presse</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!--
+        TEMPLATE_REVIEWS_JSONLD — à activer quand 3 vrais témoignages sont en place :
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Booking DJ — Marty Blind DJ",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "3"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": {"@type": "Person", "name": "Prénom Nom"},
+              "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+              "reviewBody": "Texte du témoignage.",
+              "datePublished": "2026-XX-XX"
+            }
+          ]
+        }
+        </script>
+      -->
+
       <section class="section light" aria-labelledby="dj-spotify-title">
         <div class="shell">
           <div class="section-heading">
